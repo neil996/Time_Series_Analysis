@@ -11,7 +11,6 @@ the function plot for which the output obtained is shown below in Fig. 1. ,which
 indicates the presence of seasonality which although remains constant for most time but also show spikes as the years progresses.:
 
  ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/quarterly.PNG)
- 
  ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/seasonal_decom.PNG)
 
 # MODEL BUILDUP PHASE
@@ -58,7 +57,7 @@ goal to achieve minimum RMSE, which comes out to be 0.0341 with RMSE as 547.
 Step3: Applying the Holt’s model with appropriate beta values: The optimal gamma value obtained is 0.0341 with minimum RMSE, thus applying minimum beta value obtained in the model with number of forecasting periods as 3, gives an
 AIC of 375.
 
-2. **Holt’s Winter Exponential Smoothing Model Buildup**
+3. **Holt’s Winter Exponential Smoothing Model Buildup**
 
 Step 1: Decomposition of different time series moreover analyzing the model parameters required: On converting the data to a time series data, we can decompose the time series into seasonal and trend obtained by
 making use of decompose() method and passing the time series object which disintegrates the model to seasonal ,trend thus indicating the parameters that should be passed in model
