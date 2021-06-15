@@ -89,9 +89,9 @@ as the spikes are above the dotted lines.
 2.) Validating using AIC (Akaike Information Criteria):
 The AIC obtained from all the three different exponential smoothing models is as follows:
 
-a) Simple Seasonal Exponential Model AIC: 370.7959
-b) Holt’s Exponential Model AIC: 375.8386
-c) Holt’s winter model AIC: 283.4927
+a. Simple Seasonal Exponential Model AIC: 370.7959
+b. Holt’s Exponential Model AIC: 375.8386
+c. Holt’s winter model AIC: 283.4927
 
 Therefore from the AIC values obtained from the summary of different models, we can conclude that the model with least AIC observed i.e. 283 in Holt’s winter model is the
 best fit model on the data.
