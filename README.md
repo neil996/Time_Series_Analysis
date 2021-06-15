@@ -1,6 +1,8 @@
 # Time_Series_Analysis
 Analysis of different time series models on OverseasTrips and NewHouseRegistrations in Ireland
 
+# OverseasTrips Dataset
+
 * The Overseas Trips dataset is obtained from Central Statistics Office in Ireland and is a quarterly time series data indicating travel by non-residents to Ireland from Q1. 2012 to
 Q4, 2019.
 In this section, we will analyze the raw time series of the dataset which is also the required step in every time series modeling process. As the raw time series helps to identify the
